@@ -203,7 +203,7 @@ public class Controlador extends HttpServlet {
                     request.getRequestDispatcher("Controlador?menu=Clientes&accion=Listar").forward(request, response);
                     break;
             }
-            request.getRequestDispatcher("Clientes.jsp").forward(request, response);
+            request.getRequestDispatcher("Cliente.jsp").forward(request, response);
         }else if(menu.equals("RegistrarVenta")){
             switch (accion) {
                 case "BuscarCliente":
